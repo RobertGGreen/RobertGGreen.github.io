@@ -47,16 +47,9 @@ section.intro-section {
     background: #eee;
 }
 
-.cv-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
-}
-
 .fieldwork-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: center;
     background: #fff;
 }
