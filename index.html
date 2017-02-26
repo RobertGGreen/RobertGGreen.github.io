@@ -1,84 +1,145 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <title>simplestyle_1</title>
-  <meta name="description" content="website description" />
-  <meta name="keywords" content="website keywords, website keywords" />
-  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
-  <link rel="stylesheet" type="text/css" href="style/style.css" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Robert G Green</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<body>
-  <div id="main">
-    <div id="header">
-      <div id="logo">
-        <div id="logo_text">
-          <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="index.html">simple<span class="logo_colour">style_1</span></a></h1>
-          <h2>Simple. Contemporary. Website Template.</h2>
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Robert G Green</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#publications">Publications</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#linkcv">CV</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#fieldwork">Fieldwork</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-      </div>
-      <div id="menubar">
-        <ul id="menu">
-          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-          <li class="selected"><a href="index.html">Home</a></li>
-          <li><a href="examples.html">Examples</a></li>
-          <li><a href="page.html">A Page</a></li>
-          <li><a href="another_page.html">Another Page</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </div>
-    </div>
-    <div id="content_header"></div>
-    <div id="site_content">
-      <div class="sidebar">
-        <!-- insert your sidebar items here -->
-        <h3>Latest News</h3>
-        <h4>New Website Launched</h4>
-        <h5>January 1st, 2010</h5>
-        <p>2010 sees the redesign of our website. Take a look around and let us know what you think.<br /><a href="#">Read more</a></p>
-        <p></p>
-        <h4>New Website Launched</h4>
-        <h5>January 1st, 2010</h5>
-        <p>2010 sees the redesign of our website. Take a look around and let us know what you think.<br /><a href="#">Read more</a></p>
-        <h3>Useful Links</h3>
-        <ul>
-          <li><a href="#">link 1</a></li>
-          <li><a href="#">link 2</a></li>
-          <li><a href="#">link 3</a></li>
-          <li><a href="#">link 4</a></li>
-        </ul>
-        <h3>Search</h3>
-        <form method="post" action="#" id="search_form">
-          <p>
-            <input class="search" type="text" name="search_field" value="Enter keywords....." />
-            <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
-          </p>
-        </form>
-      </div>
-      <div id="content">
-        <!-- insert the page content here -->
-        <h1>Welcome to the simplestyle_1 template</h1>
-        <p>This standards compliant, simple, fixed width website template is released as an 'open source' design (under a <a href="http://creativecommons.org/licenses/by/3.0">Creative Commons Attribution 3.0 Licence</a>), which means that you are free to download and use it for anything you want (including modifying and amending it). All I ask is that you leave the 'design from HTML5webtemplates.co.uk' link in the footer of the template, but other than that...</p>
-        <p>This template is written entirely in <strong>HTML5</strong> and <strong>CSS</strong>, and can be validated using the links in the footer.</p>
-        <p>You can view more free HTML5 web templates <a href="http://www.html5webtemplates.co.uk">here</a>.</p>
-        <p>This template is a fully functional 5 page website, with an <a href="examples.html">examples</a> page that gives examples of all the styles available with this design.</p>
-        <h2>Browser Compatibility</h2>
-        <p>This template has been tested in the following browsers:</p>
-        <ul>
-          <li>Internet Explorer 8</li>
-          <li>Internet Explorer 7</li>
-          <li>FireFox 3.5</li>
-          <li>Google Chrome 6</li>
-          <li>Safari 4</li>
-        </ul>
-      </div>
-    </div>
-    <div id="content_footer"></div>
-    <div id="footer">
-      Copyright &copy; simplestyle_1 | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">Website templates</a>
-    </div>
-  </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-med-12">
+                    <h1>About me</h1>
+                    <p><weak>I am currently a Post Doctoral Research associate at the University of Cambridge, where I conduct field work in Iceland as part of the <a href="http://www.esc.cam.ac.uk/research/research-groups/cambridge-volcano-seismology">Volcano-Seismology group</a>.
+My research interests involve using ambient noise interferometry and surface wave tomography to determine the seismic velocity structure of volcanic regions, and improve the understanding of the dynamics in active volcanic systems. I also analyse micro-seismicity to understand magma migration in the subsurface, and use coulomb stress analysis to link magmatic processes to the triggering of earthquakes. 
+<a href="http://www.esc.cam.ac.uk/directory/robert-green">University of Cambridge webpage</a>
+<p>
+                    <a class="btn btn-default page-scroll" href="#publications">Go to publications</a>
+				<p> 
+                </div>
+            <!--<div class="col-med-12">
+                <img class="img-responsive" src="Fieldwork_photos/rob_in_vault.jpg" alt="">
+            </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Publications</h1>
+                    <p>Seismic velocity structure of Icelandic rifts. <strong>Green. R. G.</strong>, Priestley. K. P., White. R. S. <i><strong>Earth and Planetary Science Letters</i></strong>, in press (2017).
+<p>Strike-slip Faulting during the 2014 Bárðarbunga-Holuhraun Dike Intrusion, Central Iceland. Ágústsdóttir. Th., Woods. J., Greenfield. T., <strong>Green. R. G.</strong>, White. R. S., Winder. T., Brandsdóttir. B., Steinthórsson. S., Soosalu. H. <i><strong>Geophysical Research Letters</i></strong>, 43 (2016).
+<p>Triggered earthquakes suppressed by an evolving stress shadow from a propagating dyke. <strong>Green. R. G.</strong>, Greenfield. T., White. R. S. <i><strong>Nature Geoscience</i></strong>, 8, 629–633 (2015).
+<p>Segmented lateral dyke growth in a rifting event at Bárðarbunga volcanic system, Iceland. Sigmundsson, F., Hooper, A., Hreinsdóttir, S., Vogfjörd, K.S., Ófeigsson, B.G., Heimisson, E.R., Dumont, S., Parks, M., Spaans, K., Gudmundsson, G.B., Drouin, V., Árnadóttir, T., Jónsdóttir, K., Gudmundsson, M.T., Högnadóttir, T., Fridriksdóttir, H.M., Hensch, M., Einarsson, P., Magnússon, E., Samsonov, S., Brandsdóttir, B., White, R.S., Ágústsdóttir, T., Greenfield, T., <strong>Green, R.G.</strong>, Hjartardóttir, Á.R., Pedersen, R., Bennett, R.A., Geirsson, H., La Femina, P.C., Björnsson, H., Pálsson, F., Sturkell, E., Bean, C.J., Möllhoff, M., Braiden, A.K., Eibl, E.P.S.  <i><strong>Nature</i></strong>, 517, 191–195 (2015).
+<p>Motion in the north Iceland volcanic rift zone accommodated by bookshelf faulting. <strong>Green. R. G.</strong>, White. R. S. & Greenfield. T.  <i><strong>Nature Geoscience</i></strong>, 7, 29–33 (2014).
+<p> 
+<h3 id="linkcv">My CV</h3>
+<p>
+<a href="CV_RGreen_feb2017.pdf" target="_blank" download>Download CV</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <!--<section id="cv" class="cv-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>My CV</h1>
+<a href="CV_RGreen_feb2017.pdf" target="_blank" download>Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- Contact Section -->
+    <section id="fieldwork" class="fieldwork-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Fieldwork Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
 </body>
+
 </html>
